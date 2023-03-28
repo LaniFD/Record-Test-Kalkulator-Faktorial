@@ -1,0 +1,452 @@
+{
+  "id": "59b295e6-8b45-4dc0-91b2-570a742eb94a",
+  "version": "2.0",
+  "name": "Perhitungan Faktorial",
+  "url": "https://qa.putraprima.id",
+  "tests": [{
+    "id": "d8c97fee-759e-4c9b-a779-1e8f7dc74b35",
+    "name": "a. Testing Faktorial Bilangan Bulat Positif",
+    "commands": [{
+      "id": "fd41db3c-a0f9-430c-a6a7-a1cd9ffe7f6f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f73a80b2-0159-4ff8-acbe-f3aac4f80c92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "621d9bbe-6e04-4718-85e7-2f95fb9e891e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cb11d77-5ecc-4d55-a76f-0d3282e1504e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "17d5c833-b18a-4883-93de-611dbd4c7551",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81bf6cb2-571b-4df1-86d9-972c2916bd91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "100e25ca-1b8d-4342-8527-84490ace4aec",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "Faktorial dari 4 adalah: 24"
+    }]
+  }, {
+    "id": "718fd637-c0ce-4d1c-a698-38c05bd75bf3",
+    "name": "b. Testing Faktorial Bilangan Bular Negatif",
+    "commands": [{
+      "id": "2a14ad12-0227-4448-9f9e-94b9b853eeed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62993dcb-2b37-4a06-8d5b-214871821c70",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b131d8d-59e0-4c5d-8cc4-6ff98d36f113",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0923463-5bd5-4c44-850d-d344155138a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "3ef74a06-0c44-4fb7-9e0f-1bc841fbed5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e4358f2-5e1a-4cd9-85c0-907b1a5f6e4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4be5e0c-96a8-45bd-8003-5b02d593ecc4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "Undefined"
+    }]
+  }, {
+    "id": "3c35d5b8-a30e-4aa5-8149-d961db037554",
+    "name": "c. Testing Faktorial Bilangan Desimal",
+    "commands": [{
+      "id": "f673eabf-6e45-4eb3-9493-734e71ef3b7d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c419984e-ea96-470a-bb3e-54b192688a29",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a75cb18-0c3a-4067-ad85-4ce3d31260ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c9ed0e-b6a6-4504-97a4-a348f98e6666",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5.6"
+    }, {
+      "id": "5ebb08b7-a428-469e-ba47-39dd94033a74",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03546d12-8abf-4579-8d89-fcdac9811752",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38b8e17f-dd45-442b-b867-90151e961e46",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "Faktorial dari 5.6 adalah: 344.701924035"
+    }]
+  }, {
+    "id": "ab5eb7c6-2564-4aa1-bf1c-3b5dab4285db",
+    "name": "d. Testing Faktorial Input Huruf",
+    "commands": [{
+      "id": "63b5ba0a-48dc-4628-a68f-75fcfec629b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae9865ab-41c0-4fbe-ad9a-c6eb78b59f57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "433f320c-57dc-4f4a-828a-5e7df09340c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1347ffeb-2289-49b4-a1aa-8d1643b6a06c",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "A"
+    }, {
+      "id": "c8d28aa8-c805-4959-8cc1-a28ad629540f",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c11d5dd9-6f75-4f1a-a988-890c1286064e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61823181-b98b-4dcf-9cb4-2e3cb1460276",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "Please enter an integer"
+    }]
+  }, {
+    "id": "e198a95c-2d4b-4073-bd9b-1b0276d8c2ba",
+    "name": "e. Testing Faktorial Input Karakter",
+    "commands": [{
+      "id": "a5c226c1-7e7a-4ecf-bfff-d76ce949fd68",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "701b5c02-a80b-4508-9a68-63d569f44873",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61c13132-ff04-4edf-937b-b2415d29a946",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d82e55b8-b42a-41e5-9d16-acdc2fd69a09",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "@"
+    }, {
+      "id": "0b24c07d-4ff5-4da5-b89f-71eef16c95c0",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d7f541e-cc6c-442b-ad61-8393ec457ca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//div[@id='result']", "xpath:attributes"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1fcdbd2-2c8a-42f9-a225-fa4ce0cfde1b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//div[@id='result']", "xpath:attributes"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Please enter an integer"
+    }]
+  }, {
+    "id": "f9daaf4c-2ffb-4de1-9bec-c3acc1557047",
+    "name": "f. Testing Faktorial Tidak Input Data",
+    "commands": [{
+      "id": "08d4ab8f-3935-4b1c-b9ac-604428d2de6c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bde00f70-dc28-4c2a-ae43-15139f433e79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5f03b90-e352-4e9c-a5c2-92a3c4ee936a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input",
+      "targets": [
+        ["id=input", "id"],
+        ["name=input", "name"],
+        ["css=#input", "css:finder"],
+        ["xpath=//input[@id='input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ab62635-d58d-483a-a3fb-d5e7441d5eb8",
+      "comment": "",
+      "command": "click",
+      "target": "id=hitung",
+      "targets": [
+        ["id=hitung", "id"],
+        ["css=#hitung", "css:finder"],
+        ["xpath=//button[@id='hitung']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3422f9bb-8710-4b05-83f4-b4a5c205eade",
+      "comment": "",
+      "command": "click",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//div[@id='result']", "xpath:attributes"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad10bb0f-fe50-4621-a63b-6b15f542cbdc",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [
+        ["id=result", "id"],
+        ["css=#result", "css:finder"],
+        ["xpath=//div[@id='result']", "xpath:attributes"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": "Please enter an integer"
+    }]
+  }],
+  "suites": [{
+    "id": "4135ef82-ad3f-4c9b-8769-9346aa66690f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8c97fee-759e-4c9b-a779-1e8f7dc74b35"]
+  }],
+  "urls": ["https://qa.putraprima.id/"],
+  "plugins": []
+}
